@@ -9,7 +9,11 @@ int main()
 	if(age>=18)
 	{
 		cout<<"\n you are eligible for voting ";
-		if(age>=55,age<80)
+		if(age>=18,age<55)
+		{
+			cout<<"\n please wait for your turn ";
+		}
+		else if(age>=55,age<80)
 		{
 			cout<<"\n you are eligible for senior citizen line ";
 		}
